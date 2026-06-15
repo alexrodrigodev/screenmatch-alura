@@ -19,7 +19,6 @@ public class Principal {
         var nomeSerie = leitura.nextLine();
         var json = consumo.obterDados(ENDERECO + nomeSerie.replace(" ", "+") + API_KEY);
 
-
         //https://www.omdbapi.com/?t=The+Boys&Season=2&apikey=e307a2d2
     }
 }
